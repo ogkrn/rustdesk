@@ -1,0 +1,20 @@
+# RustDesk Agent Default Configuration
+#
+# Edit these values before building to hardcode your server addresses.
+# These will be applied on first run if no custom server is configured.
+
+# Your RustDesk rendezvous server (hbbs)
+# Format: IP:PORT or HOSTNAME:PORT
+# Default port is 21116
+# Leave empty to use public RustDesk servers
+rendezvous_server = ""
+
+# Your RustDesk relay server (hbbr)
+# Format: IP:PORT or HOSTNAME:PORT
+# Default port is 21117
+# Leave empty to auto-derive from rendezvous server
+relay_server = ""
+
+# Server public key (optional)
+# If your server uses a custom key, paste it here
+key = ""
